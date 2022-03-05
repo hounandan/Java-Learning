@@ -6,49 +6,36 @@ public class Student {
     int number = 1234567890;
     long phone = 7338880103L;
 
+    /*
+    float typeFloat = 5.26;
+
+    --> Will show an incompatible type error. By default, 5.26 is considered as double literal.
+    Always recommeded to use 'f' or 'd' as a trailing digit to represent float or double
+    */
+
+    float typeFloat = 5.26f;
+    double typeDouble = 25.669d;
 
 
 
     void compute(){
 
-        System.out.println("Rank : "+rank);
-        System.out.println("Id : "+id);
-        System.out.println("Number : "+number);
-        System.out.println("Phone : "+phone);
+        System.out.println("Float = "+typeFloat);
+        System.out.println("Double = "+typeDouble);
 
-        System.out.println("Byte Max : "+Byte.MAX_VALUE+" Min : "+Byte.MIN_VALUE);
-        System.out.println("Short Max : "+Short.MAX_VALUE+" Min : "+Short.MIN_VALUE);
-        System.out.println("Int Max : "+Integer.MAX_VALUE+" Min : "+Integer.MIN_VALUE);
-        System.out.println("Long Max : "+Long.MAX_VALUE+" Min : "+Long.MIN_VALUE);
+        System.out.println("Double min value = "+Double.MIN_VALUE);
+        System.out.println("Double max value = "+Double.MAX_VALUE);
+        System.out.println("Float min value = "+Float.MIN_VALUE);
+        System.out.println("Float max value = "+Float.MAX_VALUE);
 
     }
 
-    static void primitives(){
-
-        //decimal literal
-        int decimal = 12345;
-        System.out.println("Decimal Literal -  "+decimal);
-
-        //octal literal
-        int octal = 0456;
-        System.out.println("Octal Literal - "+octal);
-
-        //hexa literal
-        int hexa = 0x123Face;
-        System.out.println("Hexa Literal - "+hexa);
-
-        //binary literal
-        int binary = 0b0100_0110;
-        System.out.println("Binary Literal - "+binary);
-
-
-    }
 
     public static void main(String[] args) {
 
         Student student = new Student();
 
-        primitives();
+        student.compute();
     }
 
 }
