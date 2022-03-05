@@ -23,13 +23,32 @@ public class Student {
 
     }
 
+    static void primitives(){
+
+        //decimal literal
+        int decimal = 12345;
+        System.out.println("Decimal Literal -  "+decimal);
+
+        //octal literal
+        int octal = 0456;
+        System.out.println("Octal Literal - "+octal);
+
+        //hexa literal
+        int hexa = 0x123Face;
+        System.out.println("Hexa Literal - "+hexa);
+
+        //binary literal
+        int binary = 0b0100_0110;
+        System.out.println("Binary Literal - "+binary);
+
+
+    }
 
     public static void main(String[] args) {
 
         Student student = new Student();
 
-        student.compute();
-
+        primitives();
     }
 
 }
