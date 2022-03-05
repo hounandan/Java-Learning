@@ -1,25 +1,27 @@
-class Student {
+public class Student {
 
-    static int staticVar = 500;
-    int instanceVar = 1000;
+
+    byte rank = 123;
+    short id = 12345;
+    int number = 1234567890;
+    long phone = 7338880103L;
+
+
+
 
     void compute(){
 
-        int localVar = instanceVar + 5;
+        System.out.println("Rank : "+rank);
+        System.out.println("Id : "+id);
+        System.out.println("Number : "+number);
+        System.out.println("Phone : "+phone);
 
-        System.out.println("Local Variable - "+ localVar);
-        System.out.println("Instance Variable - "+instanceVar);
+        System.out.println("Byte Max : "+Byte.MAX_VALUE+" Min : "+Byte.MIN_VALUE);
+        System.out.println("Short Max : "+Short.MAX_VALUE+" Min : "+Short.MIN_VALUE);
+        System.out.println("Int Max : "+Integer.MAX_VALUE+" Min : "+Integer.MIN_VALUE);
+        System.out.println("Long Max : "+Long.MAX_VALUE+" Min : "+Long.MIN_VALUE);
+
     }
-
-    /*
-    void checkLocalVar(){
-        System.out.println(localVar);
-    }
-
-    The above method will throw error - because the scope of the localVar is
-    within the compute() method. We cannot access that beyond the method
-
-     */
 
 
     public static void main(String[] args) {
@@ -27,16 +29,6 @@ class Student {
         Student student = new Student();
 
         student.compute();
-
-        int checkStaticVar = Student.staticVar;
-        System.out.println("Static Variable - "+checkStaticVar);
-
-        /*
-        For accessing an Instance variable, we have to create an object - and use the variables accordingly
-
-        But for Static variables, we don't have to create object - they can be accessed directly from the
-        class
-         */
 
     }
 
