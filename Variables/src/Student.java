@@ -13,8 +13,12 @@ public class Student {
         boolean isInternationalStudent;
 
 
-        double tutionFee = 15000d;
-        double internationalTutionFee = 2000d;
+        double tutionFee = 15000d, internationalTutionFee = 2000d; // Legal
+
+        //double tutionFee = 15000d, double internationalTutionFee = 2000d;  ==> Illegal
+        //double tutionFee = 15000d, int internationalTutionFee = 2000d;  ==> Illegal
+
+        // double internationalTutionFee = tutionFee = 20_000d; ==> Legal
 
         void compute(){
 
