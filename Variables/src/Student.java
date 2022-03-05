@@ -1,32 +1,40 @@
-import java.math.BigDecimal;
 
 public class Student {
 
 
     public static void main(String[] args) {
 
+        char myChar = 'A';
+        char charByInt = 65;
+        char charByUnicode = '\u0041';
 
-        double dFirst = 1d;
-        double dSecond = 0.9d;
-        System.out.println("(Double) 1 - 0.9 = "+(dFirst-dSecond));
-
-        /*
-         Expected = 0.1, but its 0.09999999999999998
-         Why? - In java, decimal values are stored using IEEE 754 standard - which using 2s' complement for storing decimal values
-         That might not yield expected values in real-time
-         */
-
-
-        BigDecimal bdFirst = new BigDecimal("1");
-        BigDecimal bdSecond = new BigDecimal("0.9");
-        System.out.println("(BigDecimal) 1 - 0.9 = "+(bdFirst.subtract(bdSecond)));
+        System.out.println("As Char = "+myChar);
+        System.out.println("As Int  = "+charByInt);
+        System.out.println("As Uni  = "+charByUnicode);
 
         /*
-        To obtain exact decimal values from Java, please refrain using float and double.
-        It is recommended to use BigDecimal for exact calculations and results
-        Eg - ECommerce & Banking Application
+        Please refer "unicode-table.com" to view the reserved character for alphabets
+        for all languages, emoji and symbols.
          */
 
+        char myUnicode1 = '\u0BA8';
+        char myUnicode2 = '\u0BA9';
+        char myUnicode3 = '\u0BCD';
+        char myUnicode4 = '\u0BA4';
+        char myUnicode5 = '\u0BA9';
+        char myUnicode6 = '\u0BCD';
+        char myUnicode7 = '\u0BB9';
+        char myUnicode8 = '\u0B6D';
+
+        System.out.print("Hounandan in Tamil  = ");
+        System.out.print(myUnicode7);
+        System.out.print(myUnicode8);
+        System.out.print(myUnicode1);
+        System.out.print(myUnicode2);
+        System.out.print(myUnicode3);
+        System.out.print(myUnicode4);
+        System.out.print(myUnicode5);
+        System.out.println(myUnicode6);
 
     }
 
