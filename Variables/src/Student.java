@@ -13,6 +13,31 @@ public class Student {
         System.out.println("As Uni  = "+charByUnicode);
 
         /*
+        We can use Integer Literals to define/initialize the character variable
+        But, Internally it is stored as "Unsigned integer"
+        Range : 0 to 65535
+
+        char myChar = -1 // Will throw error
+
+         */
+
+        char charByHex = 0x0041;
+        char charByOctal = 0101;
+        char charByBinary = 0b0100_0001;
+        System.out.println("As Hex  = "+charByHex);
+        System.out.println("As Octal = "+charByOctal);
+        System.out.println("As Binary = "+charByBinary);
+
+        /*
+        We can use also use the characters to define integer as below
+        Very Un-Common - but possible
+         */
+
+        int intChar = 'A';
+        System.out.println("Char as Int = "+intChar);
+
+
+        /*
         Please refer "unicode-table.com" to view the reserved character for alphabets
         for all languages, emoji and symbols.
          */
@@ -26,6 +51,7 @@ public class Student {
         char myUnicode7 = '\u0BB9';
         char myUnicode8 = '\u0B6D';
 
+        System.out.println();
         System.out.print("Hounandan in Tamil  = ");
         System.out.print(myUnicode7);
         System.out.print(myUnicode8);
@@ -35,6 +61,8 @@ public class Student {
         System.out.print(myUnicode4);
         System.out.print(myUnicode5);
         System.out.println(myUnicode6);
+
+
 
     }
 
