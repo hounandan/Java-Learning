@@ -1,28 +1,26 @@
 public class Main {
 
 
-    static double sum(double a, double b){
-        return a+b;
-    }
-
-    static double avg(double a, double b){
-        return (sum(a,b))/2;
-    }
-
-    static boolean search(int[] list, int key){
-        return true; // Just to Illustrate - how to pass arrays in method calls
-    }
-
     public static void main(String[] args) {
 
-        double myDouble = sum(4.5d, 75.8d);
-        System.out.println(myDouble);
+        CurrencyConverter cc = new CurrencyConverter();
 
-        double myAverage = avg(5.2d, 7.1d);
-        System.out.println(myAverage);
+        double[] rates = {63.0d, 3.0d, 3.0d, 595.5d, 18.0d, 107.0d, 2.0d};
+        cc.setExchangeRates(rates);
+        System.out.println("As of Jan 1");
+        cc.printCurrencies();
 
-        int[] list = {1,5};
-        search(list, 1);
+        rates = new double[]{65.0d, 5.0d, 3.0d, 595.5d, 18.0d, 107.0d, 2.0d};
+        cc.setExchangeRates(rates);
+        System.out.println("\nUpdated Exchange rates");
+        cc.printCurrencies();
+
+        cc.updateExchangeRates(0, 66.0d);
+        System.out.println("\nChanging rupees");
+        cc.printCurrencies();
+
+        double amount = cc.computeTransferAmount(0, 1000d);
+        System.out.println("\nTransferred Amount: "+amount);
 
     }
 
