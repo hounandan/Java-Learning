@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec872645-141c-4771-a422-bfbebce61f57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Methods/src/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/Assignment3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/src/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/src/MoneyTransferService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Methods/out/production/Methods/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Methods/out/production/Methods/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Methods/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Methods/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
