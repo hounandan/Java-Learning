@@ -1,27 +1,32 @@
 public class Main {
 
 
+    static void go(int[] array){
+        System.out.println("array[0] : "+array[0]);
+        System.out.println("array[1] : "+array[1]);
+        array[1] = 22;
+    }
+
+    static void go(int number){
+        System.out.println("go(int number)");
+    }
+
+    static void go(short s){
+        System.out.println("go(short s)");
+    }
+
+
     public static void main(String[] args) {
 
-        CurrencyConverter cc = new CurrencyConverter();
+        int[] array = {1,2};
+        go(array);
+        System.out.println("array[1] : "+array[1]);
 
-        double[] rates = {63.0d, 3.0d, 3.0d, 595.5d, 18.0d, 107.0d, 2.0d};
-        cc.setExchangeRates(rates);
-        System.out.println("As of Jan 1");
-        cc.printCurrencies();
+        int number = 1000;
+        go(number);
 
-        rates = new double[]{65.0d, 5.0d, 3.0d, 595.5d, 18.0d, 107.0d, 2.0d};
-        cc.setExchangeRates(rates);
-        System.out.println("\nUpdated Exchange rates");
-        cc.printCurrencies();
-
-        cc.updateExchangeRates(0, 66.0d);
-        System.out.println("\nChanging rupees");
-        cc.printCurrencies();
-
-        double amount = cc.computeTransferAmount(0, 1000d);
-        System.out.println("\nTransferred Amount: "+amount);
-
+        short s = 20;
+        go(s);
     }
 
 }
