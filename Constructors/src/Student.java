@@ -15,33 +15,40 @@ public class Student {
     double tutionFee = 15000d;
     double internationalTutionFee = 2000d;
 
+
+    boolean updateName(String name){
+        this.name = name;
+        return true;
+    }
+
+
     //default Constructor
     Student(){}
 
-    Student(int newId, char newGender, int newAge, long newPhone, double newGpa, String newName,
-            String newDegree) {
+    Student(int id, char gender, int age, long phone, double gpa, String name,
+            String degree) {
 
-        this(newId, newGender, newAge, newPhone, newGpa, newName,
-                newDegree, false);
+        this(id, gender, age, phone, gpa, name,
+                degree, false);
 
 
     }
 
     // Primary Constructor
-    Student(int newId, char newGender, int newAge, long newPhone, double newGpa, String newName,
-            String newDegree, boolean isInternationalStudentflag) {
+    Student(int id, char gender, int age, long phone, double gpa, String name,
+            String degree, boolean isInternationalStudent) {
 
-        id = newId;
-        gender = newGender;
-        age = newAge;
-        phone = newPhone;
-        gpa = newGpa;
-        name = newName;
-        degree = newDegree;
-        isInternationalStudent = isInternationalStudentflag;
+        this.id = id;
+        this.gender = gender;
+        this.age = age;
+        this.phone = phone;
+        this.gpa = gpa;
+        this.name = name;
+        this.degree = degree;
+        this.isInternationalStudent = isInternationalStudent;
         computeCount++;
 
-        if (isInternationalStudent) {
+        if (this.isInternationalStudent) {
             tutionFee = tutionFee + internationalTutionFee;
         }
 
@@ -49,14 +56,14 @@ public class Student {
             tutionFee = tutionFee - 5000d;
         }
 
-        System.out.println("Id : " + id);
-        System.out.println("Name : " + name);
-        System.out.println("Gender : " + gender);
-        System.out.println("Age : " + age);
-        System.out.println("Phone : " + phone);
-        System.out.println("GPA : " + gpa);
-        System.out.println("Degree : " + degree);
-        System.out.println("Tuition Fee : " + tutionFee);
+        System.out.println("Id : " + this.id);
+        System.out.println("Name : " + this.name);
+        System.out.println("Gender : " + this.gender);
+        System.out.println("Age : " + this.age);
+        System.out.println("Phone : " + this.phone);
+        System.out.println("GPA : " + this.gpa);
+        System.out.println("Degree : " + this.degree);
+        System.out.println("Tuition Fee : " + this.tutionFee);
         System.out.println("Compute Count : " + computeCount);
         System.out.println();
 
