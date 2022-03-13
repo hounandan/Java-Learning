@@ -5,7 +5,7 @@ public class Main {
 
 
         Student student1 = new Student(1, 'M', 22, 7338880103L,
-                3.5d, "Nandan R", "B.E", false);
+                3.5d, "Nandan R", "B.E");
 
         Student student2 = new Student(2, 'M', 22, 9952866199L,
                 3.8d, "Kumaran MS", "B.E", true);

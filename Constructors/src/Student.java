@@ -19,6 +19,16 @@ public class Student {
     Student(){}
 
     Student(int newId, char newGender, int newAge, long newPhone, double newGpa, String newName,
+            String newDegree) {
+
+        this(newId, newGender, newAge, newPhone, newGpa, newName,
+                newDegree, false);
+
+
+    }
+
+    // Primary Constructor
+    Student(int newId, char newGender, int newAge, long newPhone, double newGpa, String newName,
             String newDegree, boolean isInternationalStudentflag) {
 
         id = newId;
@@ -29,23 +39,17 @@ public class Student {
         name = newName;
         degree = newDegree;
         isInternationalStudent = isInternationalStudentflag;
-
-        compute();
-
-    }
-
-
-    void compute() {
-
-        int nextId = id + 1;
         computeCount++;
 
         if (isInternationalStudent) {
             tutionFee = tutionFee + internationalTutionFee;
         }
 
+        if(gpa > 3.5){
+            tutionFee = tutionFee - 5000d;
+        }
+
         System.out.println("Id : " + id);
-        System.out.println("Next Id : " + nextId);
         System.out.println("Name : " + name);
         System.out.println("Gender : " + gender);
         System.out.println("Age : " + age);
@@ -56,6 +60,8 @@ public class Student {
         System.out.println("Compute Count : " + computeCount);
         System.out.println();
 
-
     }
+
+
+
 }
