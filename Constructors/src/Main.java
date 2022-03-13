@@ -24,6 +24,14 @@ public class Main {
         System.out.println("Updated Name of Student 1: "+student1.name);
 
 
+        Student[] students = {student1, student2, student3};
+
+        student1.swap(students, 0, 2);
+        System.out.println("\nName of Student 1: "+students[0].name);
+        System.out.println("Name of Student 2: "+students[1].name);
+        System.out.println("Name of Student 3: "+students[2].name);
+
+
     }
 
 

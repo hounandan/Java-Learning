@@ -21,6 +21,12 @@ public class Student {
         return true;
     }
 
+    void swap(Student[]students, int firstIndex, int secondIndex){
+        Student temp = students[firstIndex];
+        students[firstIndex] = students[secondIndex];
+        students[secondIndex] = temp;
+    }
+
 
     //default Constructor
     Student(){}
