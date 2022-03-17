@@ -59,14 +59,32 @@ public class Main {
 
     }
 
+    static void logicalOperators(){
+
+        Person p1 = new Person(37, 90_000d);
+        int age = p1.getAge();
+        double salary = p1.getSalary();
+        boolean hasBadCredit = p1.isHasBadCredit();
+
+        if(age > 40 || salary>100_000){
+            System.out.println("Loan approved");
+        }else {
+            System.out.println("Loan not approved");
+        }
+
+
+
+    }
+
 
     public static void main(String[] args) {
 
 //        preAndPost();
 //        compoundArithmeticAssignments();
 //        isOddOrEven(5);
+//        comparisonOperators();
 
-        comparisonOperators();
+        logicalOperators();
 
     }
 
