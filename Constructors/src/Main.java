@@ -14,22 +14,22 @@ public class Main {
                 3.6d, "Aravind GK", "B.E", false);
 
 
-        System.out.println("Compute count : "+Student.computeCount);
+        System.out.println("Compute count : "+Student.getComputeCount());
 
-        System.out.println("Name of Student 1: "+student1.name);
-        System.out.println("Name of Student 2: "+student2.name);
-        System.out.println("Name of Student 3: "+student3.name);
+        System.out.println("Name of Student 1: "+student1.getName());
+        System.out.println("Name of Student 2: "+student2.getName());
+        System.out.println("Name of Student 3: "+student3.getName());
 
         student1.updateName("Nandan R");
-        System.out.println("Updated Name of Student 1: "+student1.name);
+        System.out.println("Updated Name of Student 1: "+student1.getName());
 
 
         Student[] students = {student1, student2, student3};
 
         student1.swap(students, 0, 2);
-        System.out.println("\nName of Student 1: "+students[0].name);
-        System.out.println("Name of Student 2: "+students[1].name);
-        System.out.println("Name of Student 3: "+students[2].name);
+        System.out.println("\nName of Student 1: "+students[0].getName());
+        System.out.println("Name of Student 2: "+students[1].getName());
+        System.out.println("Name of Student 3: "+students[2].getName());
 
 
     }

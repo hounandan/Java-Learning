@@ -1,27 +1,27 @@
 public class Student {
 
-    static int computeCount = 0;
+    private static int computeCount = 0;
 
-    int id;
-    char gender;
-    int age;
-    long phone;
-    double gpa;
+    private int id;
+    private char gender;
+    private int age;
+    private long phone;
+    private double gpa;
 
-    String name;
-    String degree;
-    boolean isInternationalStudent;
+    private String name;
+    private String degree;
+    private boolean isInternationalStudent;
 
-    double tutionFee = 15000d;
-    double internationalTutionFee = 2000d;
+    private double tutionFee = 15000d;
+    private double internationalTutionFee = 2000d;
 
 
-    boolean updateName(String name){
+    public boolean updateName(String name){
         this.name = name;
         return true;
     }
 
-    void swap(Student[]students, int firstIndex, int secondIndex){
+    public void swap(Student[]students, int firstIndex, int secondIndex){
         Student temp = students[firstIndex];
         students[firstIndex] = students[secondIndex];
         students[secondIndex] = temp;
@@ -31,7 +31,7 @@ public class Student {
     //default Constructor
     Student(){}
 
-    Student(int id, char gender, int age, long phone, double gpa, String name,
+    public Student(int id, char gender, int age, long phone, double gpa, String name,
             String degree) {
 
         this(id, gender, age, phone, gpa, name,
@@ -41,7 +41,7 @@ public class Student {
     }
 
     // Primary Constructor
-    Student(int id, char gender, int age, long phone, double gpa, String name,
+    public Student(int id, char gender, int age, long phone, double gpa, String name,
             String degree, boolean isInternationalStudent) {
 
         this.id = id;
@@ -76,5 +76,78 @@ public class Student {
     }
 
 
+    public static int getComputeCount() {
+        return computeCount;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+
+        if(gender=='M' || gender=='F' || gender=='O'){
+            this.gender = gender;
+        }else {
+            throw new IllegalArgumentException("Invalid Gender");
+        }
+
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(long phone) {
+        this.phone = phone;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDegree() {
+        return degree;
+    }
+
+    public void setDegree(String degree) {
+        this.degree = degree;
+    }
+
+    public boolean isInternationalStudent() {
+        return isInternationalStudent;
+    }
+
+    public void setInternationalStudent(boolean internationalStudent) {
+        isInternationalStudent = internationalStudent;
+    }
 
 }
