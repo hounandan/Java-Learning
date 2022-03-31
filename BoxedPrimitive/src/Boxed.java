@@ -120,4 +120,51 @@ public class Boxed {
 
     }
 
+    public void expensiveOperation(){
+
+        long start = System.nanoTime();
+        Long sum = 0L;
+        for(long i = 0; i< Integer.MAX_VALUE; i++){
+            sum = sum + i;
+        }
+        System.out.println("Time for Boxed: "+ (System.nanoTime() - start)/ 1_000_000);
+
+        start = System.nanoTime();
+        long sum1 = 0;
+        for(long i = 0; i< Integer.MAX_VALUE; i++){
+            sum1 = sum1 + i;
+        }
+        System.out.println("Time for Primitive: "+ (System.nanoTime() - start)/ 1_000_000);
+    }
+
+    public void compareBoxedPrimitives(){
+
+        System.out.println("Inside Compare Boxed Primitives - START");
+        Integer num1 = Integer.valueOf(300);
+        Integer num2 = Integer.valueOf(300);
+        System.out.println("num1 == num2 : "+ (num1==num2));
+
+        // Solution
+        System.out.println("num1.intValue() == num2.intValue(): "+ (num1.intValue() == num2.intValue()));
+        System.out.println("num1.equals(num2): "+num1.equals(num2));
+
+
+        Integer num3 = Integer.valueOf(50);
+        System.out.println("num1 < num3: "+ (num1 < num3));
+
+        System.out.println("Inside Compare Boxed Primitives - END");
+    }
+
+    static Integer i;
+    public void unbelievable(){
+        System.out.println("Inside Unbelievable: START");
+
+        if(i == 0){
+            System.out.println("Weird!");
+        }
+
+        System.out.println("Inside Unbelievable: START");
+    }
+
+
 }
