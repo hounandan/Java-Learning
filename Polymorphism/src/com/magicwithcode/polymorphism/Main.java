@@ -6,6 +6,14 @@ public class Main {
         user.printUserType();
     }
 
+    public void approveReview(Staff staff){
+        if(staff instanceof Editor){
+            ((Editor)staff).approveReview();
+        }else {
+            System.out.println("Invalid object passed");
+        }
+    }
+
     public static void main(String[] args) {
 
         User user = new User();
@@ -35,6 +43,11 @@ public class Main {
                                 // but it will not use the method present in User class
                                 // Rather, it again comes to the object references pass and again starts
                                 // climbing up the inheritance tree and find it in Staff class
+
+
+        // Instanceof - Example
+        m.approveReview(new Editor()); // works Fine
+        m.approveReview(new Staff()); // The instanceof return false and "Invalid object passed" is returned
 
     }
 
