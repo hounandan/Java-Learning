@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b514bce8-da92-4359-87bc-6df2dbf33198" name="Changes" comment="Recursion &#10;&#10;-- Recursion class - factorialNR(), factorialRecursive and binary search&#10;-- Main class - to test the above methods">
+      <change afterPath="$PROJECT_DIR$/../AccessModifierPackagesInheritance/src/com/magicwithcode/oop/p1/A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccessModifierPackagesInheritance/src/com/magicwithcode/oop/p1/B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccessModifierPackagesInheritance/src/com/magicwithcode/oop/p1/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccessModifierPackagesInheritance/src/com/magicwithcode/oop/p2/B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccessModifierPackagesInheritance/src/com/magicwithcode/oop/p2/C2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27EhPpYceumJhoTEqOih2vHH6xx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b514bce8-da92-4359-87bc-6df2dbf33198" name="Changes" comment="" />
+      <created>1648891131059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648891131059</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Recursion &#10;&#10;-- Recursion class - factorialNR(), factorialRecursive and binary search&#10;-- Main class - to test the above methods">
+      <created>1648895270087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648895270088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Recursion &#10;&#10;-- Recursion class - factorialNR(), factorialRecursive and binary search&#10;-- Main class - to test the above methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion &#10;&#10;-- Recursion class - factorialNR(), factorialRecursive and binary search&#10;-- Main class - to test the above methods" />
+  </component>
+</project>

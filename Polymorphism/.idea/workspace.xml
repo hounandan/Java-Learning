@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b62409f0-750b-4405-8916-5d889aa19286" name="Changes" comment="Method Over-Ridding&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo approveReview() - how it works in Parent class and also in sub-class&#10;-- Main class - used staff object to demo the functionality">
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/MethodBinding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27MdvKgLNd4PSKMJIthEShFHAtA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magicwithcode.polymorphism.Main" />
+      <module name="Polymorphism" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magicwithcode.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b62409f0-750b-4405-8916-5d889aa19286" name="Changes" comment="" />
+      <created>1649134117962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649134117962</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Polymorphism&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- methods to demo polymorphism&#10;-- printUserType(), saveWebLink(), postAReview(), approveReview()">
+      <created>1649136390457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649136390457</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Instanceof - object casting&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo instanceof - how it works&#10;-- approveReview() in Main class&#10;-- same invoked in main class">
+      <created>1649171725701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649171725701</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Method Over-Ridding&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo approveReview() - how it works in Parent class and also in sub-class&#10;-- Main class - used staff object to demo the functionality">
+      <created>1649251841917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649251841917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Polymorphism&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- methods to demo polymorphism&#10;-- printUserType(), saveWebLink(), postAReview(), approveReview()" />
+    <MESSAGE value="Instanceof - object casting&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo instanceof - how it works&#10;-- approveReview() in Main class&#10;-- same invoked in main class" />
+    <MESSAGE value="Method Over-Ridding&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo approveReview() - how it works in Parent class and also in sub-class&#10;-- Main class - used staff object to demo the functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method Over-Ridding&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo approveReview() - how it works in Parent class and also in sub-class&#10;-- Main class - used staff object to demo the functionality" />
+  </component>
+</project>

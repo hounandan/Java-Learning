@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b2da402-cc65-4471-a90d-278c47ddccd8" name="Changes" comment="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="f780fd12e54e5f9280660745094f59e86019e6b9" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1649181810" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27O5csocGAF6Odutc8zW6pjDotA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/magicwithcode/oop" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.magicwithcode.oop.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magicwithcode.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b2da402-cc65-4471-a90d-278c47ddccd8" name="Changes" comment="" />
+      <created>1649178374775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649178374775</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class">
+      <created>1649181440948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649181440948</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class">
+      <created>1649181476971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649181476971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class" />
+  </component>
+</project>
