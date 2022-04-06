@@ -49,6 +49,10 @@ public class Main {
         m.approveReview(new Editor()); // works Fine
         m.approveReview(new Staff()); // The instanceof return false and "Invalid object passed" is returned
 
+        // Method Over-riding
+        staff.approveAReview("Review1: Good");
+        
+
     }
 
 }
