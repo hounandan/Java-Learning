@@ -9,7 +9,16 @@ public class Main {
 //        staff.postAReview("");
 
 //        staff.instanceMethod(10);
-        staff.instanceMethod(new Staff());
+//        staff.instanceMethod(new Staff());
+
+        //staff.staticMethod(); // Method hiding
+        //((Staff)staff).staticMethod();
+
+        //staff.saveWebLink();
+
+        staff.displayUserInfo();
+
+
 
     }
 

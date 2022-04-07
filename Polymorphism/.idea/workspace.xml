@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b62409f0-750b-4405-8916-5d889aa19286" name="Changes" comment="Method Over-Ridding&#10;&#10;-- Classes: User, Staff, Editor and Main&#10;-- to demo approveReview() - how it works in Parent class and also in sub-class&#10;-- Main class - used staff object to demo the functionality">
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/MethodBinding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodBinding/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MethodBinding/src/com/magicwithcode/MethodBinding/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
   <component name="ProjectId" id="27MdvKgLNd4PSKMJIthEShFHAtA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
