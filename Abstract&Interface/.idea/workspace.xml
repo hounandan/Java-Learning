@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstract&amp;Interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/basics/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/basics/AbstractSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/basics/ConcreteSubclass.java" afterDir="false" />
+    <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/CodingExercise8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/BronzePlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/GoldPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/HealthInsurancePlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/InsuranceBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/PlatinumPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/SilverPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingExercise7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingExercise7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,6 +87,14 @@
       <option name="presentableId" value="Default" />
       <updated>1649396297439</updated>
     </task>
+    <task id="LOCAL-00001" summary="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept">
+      <created>1649398077703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649398077703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept" />
   </component>
 </project>

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2da402-cc65-4471-a90d-278c47ddccd8" name="Changes" comment="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class" />
+    <list default="true" id="4b2da402-cc65-4471-a90d-278c47ddccd8" name="Changes" comment="Coding Exercise 7&#10;&#10;-- Classes: User, Patients&#10;HealthInsurancePlan, PlatinumPlan, GoldPlan, SilverPlan, BronzePlan&#10;&#10;-- Billing class - to calculate the payment needed to pay by the insurance and the patient&#10;&#10;-- Main class to test all methods.&#10;&#10;-- dummy InsuranceBrand class">
+      <change afterPath="$PROJECT_DIR$/../Abstract&amp;Interface/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/BronzePlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/GoldPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/HealthInsurancePlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/InsuranceBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/PlatinumPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/SilverPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Abstract&amp;Interface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abstract&amp;Interface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
