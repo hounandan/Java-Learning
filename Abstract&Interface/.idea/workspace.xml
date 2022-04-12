@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/CodingExercise8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/BronzePlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/GoldPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/HealthInsurancePlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/InsuranceBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/PlatinumPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/SilverPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise8/src/com/magicwithcode/absint/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/AbstractA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingExercise7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingExercise7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,8 +45,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestClient">
     <configuration name="ConcreteSubclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.magicwithcode.absint.basics.ConcreteSubclass" />
       <module name="Abstract&amp;Interface" />
@@ -72,8 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magicwithcode.absint.inter.TestClient" />
+      <module name="Abstract&amp;Interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magicwithcode.absint.inter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.ConcreteSubclass" />
       </list>
     </recent_temporary>
