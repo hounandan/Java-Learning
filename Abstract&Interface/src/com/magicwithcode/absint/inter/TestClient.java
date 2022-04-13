@@ -12,6 +12,12 @@ public class TestClient {
         a.foo();
         a.bar();
 
+        C clone = ((X)a).clone();
+        if(clone != a){
+            System.out.println("Clone Created");
+        }
+
+
     }
 
 }

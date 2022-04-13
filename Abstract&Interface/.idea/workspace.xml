@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class.">
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/CodingExercise9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/BlueCrossBlueField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/BronzePlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/GoldPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/HealthInsurancePlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/InsuranceBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/PlatinumPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/SilverPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/BlueCrossBlueShield.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +35,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27VDKjsXOe4h5Gqgrh0pSTB269S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -129,6 +121,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept" />
     <MESSAGE value="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class." />
     <option name="LAST_COMMIT_MESSAGE" value="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class." />
