@@ -7,4 +7,8 @@ public interface B {
 
     void foo();
 
+//    default void go(){
+//        System.out.printf("B: go");
+//    }
+
 }

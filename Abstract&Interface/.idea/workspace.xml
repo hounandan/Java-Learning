@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class.">
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingExercise9/src/com/magicwithcode/intf/BlueCrossBlueShield.java" afterDir="false" />
+    <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Clonable Interface&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- X extends Clonable interface&#10;-- TestClient to demo .clone() and exception thrown if not a clone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/X.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/X.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/AbstractA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/AbstractA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" afterDir="false" />
     </list>
@@ -106,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649777976755</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clonable Interface&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- X extends Clonable interface&#10;-- TestClient to demo .clone() and exception thrown if not a clone">
+      <created>1649867945212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649867945212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +133,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Abstract And Interface&#10;&#10;-- Intro demo&#10;-- AbstractClass, AbstractSubClass and ConcreteSubclass&#10;-- test1(), test2(), test3() to demo abstract concept" />
     <MESSAGE value="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class." />
+    <MESSAGE value="Clonable Interface&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- X extends Clonable interface&#10;-- TestClient to demo .clone() and exception thrown if not a clone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clonable Interface&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- X extends Clonable interface&#10;-- TestClient to demo .clone() and exception thrown if not a clone" />
   </component>
 </project>

@@ -21,4 +21,8 @@ public class X extends AbstractA implements A,B,C, Cloneable{
         return null;
     }
 
+//    public void go(){
+//        System.out.printf("X: go");
+//    }
+
 }
