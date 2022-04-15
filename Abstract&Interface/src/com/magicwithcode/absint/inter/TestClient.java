@@ -55,9 +55,28 @@ public class TestClient {
         * C.super.go();
          */
 
+        new TestClient().lamdaTest(() -> System.out.printf("Java In-Depth"));
+
+        /*
+        * Function Interface and Lambda Expression are related in some ways
+        * (Will be learning that later)
+        *
+        * Functional Interface: An interface having only one method - The interface represents
+        * a single function that it performs
+        * The above lambda expression - will work fine when the interface has only method
+        * declaration: (i.e) works only if the interface is a functional interface.
+        *
+        * When the interface has two or more declaration - the lamba experssion throws error.
+        *
+        * To handle this: we can use default methods to use the lambda expression without any error
+        *
+         */
 
 
+    }
 
+    void lamdaTest(FunctionalInterface fi){
+        fi.test();
     }
 
 }
