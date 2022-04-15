@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Default Methods:&#10;&#10;-- demo of go() method in different scenarios">
-      <change afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/FunctionalInterface.java" afterDir="false" />
+    <list default="true" id="ef4d9a3f-fe7c-432d-beac-1d8e150eb370" name="Changes" comment="Default Methods - Other Benefits:&#10;&#10;-- demo using functional interface and lambda expression.&#10;-- Interface: FunctionalInterface with test() and test1()[test1() as default method]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/AbstractA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/AbstractA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/C.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/X.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abstract&amp;Interface/com/magicwithcode/absint/inter/X.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magicwithcode/absint/inter/X.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649943927503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Default Methods - Other Benefits:&#10;&#10;-- demo using functional interface and lambda expression.&#10;-- Interface: FunctionalInterface with test() and test1()[test1() as default method]">
+      <created>1650031701374</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650031701374</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +148,7 @@
     <MESSAGE value="Interface Demo&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- TestClient class to demo interface concepts defined in A, B, C and X class." />
     <MESSAGE value="Clonable Interface&#10;&#10;-- Classes: X, AbstractA&#10;-- Interfaces: A, B, C&#10;-- X extends Clonable interface&#10;-- TestClient to demo .clone() and exception thrown if not a clone" />
     <MESSAGE value="Default Methods:&#10;&#10;-- demo of go() method in different scenarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Methods:&#10;&#10;-- demo of go() method in different scenarios" />
+    <MESSAGE value="Default Methods - Other Benefits:&#10;&#10;-- demo using functional interface and lambda expression.&#10;-- Interface: FunctionalInterface with test() and test1()[test1() as default method]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Methods - Other Benefits:&#10;&#10;-- demo using functional interface and lambda expression.&#10;-- Interface: FunctionalInterface with test() and test1()[test1() as default method]" />
   </component>
 </project>

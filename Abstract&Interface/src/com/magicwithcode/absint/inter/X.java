@@ -25,4 +25,12 @@ public class X extends AbstractA implements A,B,C, Cloneable{
 //        System.out.printf("X: go");
 //    }
 
+    public void inheritanceTest(){
+
+        go(); // calls the go method in the interface C
+
+        //staticMethod(); // Will not work as static methods in interface is not inherited
+
+    }
+
 }

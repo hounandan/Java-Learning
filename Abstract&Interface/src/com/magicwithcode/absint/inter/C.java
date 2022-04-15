@@ -6,6 +6,10 @@ public interface C extends A{
 
     default void go(){
         System.out.printf("C: go");
+        staticMethod();
     }
 
+    static void staticMethod(){
+        System.out.printf("C: staticMethod");
+    }
 }

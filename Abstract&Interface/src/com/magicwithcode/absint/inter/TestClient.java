@@ -72,6 +72,10 @@ public class TestClient {
         *
          */
 
+        // c.staticMethod(); // Will not work - Invoked only via interface Name
+        C.staticMethod(); // Works fine as invoked using Interface name
+
+
 
     }
 
