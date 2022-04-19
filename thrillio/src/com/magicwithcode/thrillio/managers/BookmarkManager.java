@@ -1,10 +1,7 @@
 package com.magicwithcode.thrillio.managers;
 
 import com.magicwithcode.thrillio.dao.BookmarkDao;
-import com.magicwithcode.thrillio.entities.Book;
-import com.magicwithcode.thrillio.entities.Bookmark;
-import com.magicwithcode.thrillio.entities.Movie;
-import com.magicwithcode.thrillio.entities.WebLink;
+import com.magicwithcode.thrillio.entities.*;
 
 public class BookmarkManager {
 
@@ -75,5 +72,14 @@ public class BookmarkManager {
     }
 
 
+    public void saveUserBookmark(User user, Bookmark bookmark) {
 
+        UserBookMark userBookMark = new UserBookMark();
+        userBookMark.setUser(user);
+        userBookMark.setBookmark(bookmark);
+
+        dao.saveUserBookmark(userBookMark);
+
+
+    }
 }
