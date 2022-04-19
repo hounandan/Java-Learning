@@ -1,12 +1,15 @@
 package com.magicwithcode.thrillio.managers;
 
+import com.magicwithcode.thrillio.dao.BookmarkDao;
 import com.magicwithcode.thrillio.entities.Book;
+import com.magicwithcode.thrillio.entities.Bookmark;
 import com.magicwithcode.thrillio.entities.Movie;
 import com.magicwithcode.thrillio.entities.WebLink;
 
 public class BookmarkManager {
 
     private static BookmarkManager bookmarkManager = null;
+    private static BookmarkDao dao = new BookmarkDao();
 
     private BookmarkManager(){
 
@@ -56,18 +59,21 @@ public class BookmarkManager {
     }
 
     public WebLink createWebLink(long id, String title, String profileUrl,
-                                 String url, String host){
+                                 String url/*, String host*/){
 
         WebLink webLink = new WebLink();
         webLink.setId(id);
         webLink.setTitle(title);
         webLink.setProfileUrl(url);
         webLink.setUrl(url);
-        webLink.setHost(host);
+        //webLink.setHost(host);
 
         return webLink;
     }
 
+    public Bookmark[][] getBookmarks(){
+        return dao.getBookmarks();
+    }
 
 
 
