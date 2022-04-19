@@ -58,15 +58,14 @@ public class BookmarkManager {
 
     }
 
-    public WebLink createWebLink(long id, String title, String profileUrl,
-                                 String url/*, String host*/){
+    public WebLink createWebLink(long id, String title,
+                                 String url, String host){
 
         WebLink webLink = new WebLink();
         webLink.setId(id);
         webLink.setTitle(title);
-        webLink.setProfileUrl(url);
         webLink.setUrl(url);
-        //webLink.setHost(host);
+        webLink.setHost(host);
 
         return webLink;
     }
