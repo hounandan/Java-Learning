@@ -1,10 +1,13 @@
 package com.magicwithcode.thrillio.entities;
 
+import com.magicwithcode.thrillio.constants.KidFriendlyStatus;
+
 public abstract class Bookmark {
 
     private long id;
     private String title;
     private String profileUrl;
+    private String kidFriendlyStatus = KidFriendlyStatus.UNKNOWN;
 
 
 
@@ -36,5 +39,15 @@ public abstract class Bookmark {
     }
 
     public abstract boolean isKidFriendlyEligible();
+
+    public void setKidFriendlyStatus(String kidFriendlyStatus) {
+        this.kidFriendlyStatus = kidFriendlyStatus;
+    }
+    public String getKidFriendlyStatus() {
+        return kidFriendlyStatus;
+    }
+
+
+
 
 }
